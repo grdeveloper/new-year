@@ -43,7 +43,9 @@
 
 
 
-(function (window) {
+(function (window, document) {
+    'use strict';
+
     var flag = true;
     var counter = 0;
 
@@ -128,4 +130,4 @@
 
     scrollIntoArea(scrollButtons, scrollElements);
 
-})(window);
+})(window, document);
